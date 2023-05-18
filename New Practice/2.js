@@ -1,0 +1,1 @@
+//variables declared with the 'let' key word are block-scoped,so evev though 'a' is re-initiali
