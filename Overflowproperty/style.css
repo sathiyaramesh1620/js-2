@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+div{
+    width:50%;
+    padding: 30px;
+    background-color: white;
+    font-size: 20px;
+}
+/* p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+} */
+p{
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+     -webkit-line-clamp: 6;
+     -webkit-box-orient: vertical;
+     
+}
+
+
+
